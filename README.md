@@ -115,7 +115,7 @@ python churn_prediction.py
 
 ---
 
-## 🔬 Business Hypotheses Validated
+##  Business Hypotheses Validated
 
 | # | Hypothesis | Result |
 |---|-----------|--------|
@@ -168,7 +168,7 @@ Raw Data (7,043 × 21)
 
 ---
 
-## 🏆 Model Selection
+##  Model Selection
 
 **XGBoost** is selected as the final deployment model based on best F1-Score and ROC-AUC across all 6 candidates.
 
@@ -207,9 +207,3 @@ Raw Data (7,043 × 21)
 - Models are cached with `@st.cache_data` / `@st.cache_resource` — training only happens once per session.
 - Run all cells top-to-bottom in `churn_prediction.py` to avoid state issues from partial re-execution.
 - The `plots/` and `results/` directories are created automatically on first run.
-
----
-
-## 📄 License
-
-This project is for academic purposes.
