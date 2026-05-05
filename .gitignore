@@ -1,0 +1,92 @@
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ─────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── Distribution / packaging ─────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Jupyter Notebooks ────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Data files ───────────────────────────────────────────────
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+# Keep the dataset if committed intentionally — remove line above
+
+# ── Generated outputs ────────────────────────────────────────
+plots/
+results/
+
+# ── ML model artefacts ───────────────────────────────────────
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+saved_model/
+
+# ── TensorFlow / Keras ───────────────────────────────────────
+logs/
+*.tfevents.*
+
+# ── Streamlit ────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Environment variables ────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── OS files ─────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── IDEs ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# ── Pytest / coverage ────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── mypy ─────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
